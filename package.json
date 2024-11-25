@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "js-fw",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://yul1apedchenko.github.io/js-fw",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /js-fw/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,12 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "basiclightbox": "^5.0.4",
+    "chart.js": "^4.4.6",
+    "modern-normalize": "^1.1.0",
+    "nanoid": "^5.0.8"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
